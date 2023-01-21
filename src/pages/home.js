@@ -10,7 +10,9 @@ import ListStudents from "../components/listStudents";
 const Home = () => {
 
     const [students, setStudents] = useState(null)
-    const navigate=useNavigate()
+    
+    const navigate=useNavigate(null)
+    
 
     useEffect(() => {
         axios.get("http://localhost:3004/students")
@@ -30,12 +32,12 @@ const Home = () => {
             )
         }
     return (
-        <div className="">
+        <div >
             <Header />
             <div className="container mt-5 d-flex justify-content-end">
             <button onClick={()=>navigate("/AddStudent")} className="btn btn-primary">ÖĞRENCİ EKLE</button>
             </div>
-            <ListStudents students={students} />
+            <ListStudents students={students} setStudents={setStudents}/>
         </div>
     ) 
 }

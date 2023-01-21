@@ -1,44 +1,12 @@
 {
-    "students":[
-        {
-            "id":"1",
-            "name":"emrah",
-            "surname":"yumurtacı",
-            "studentNo":"931",
-            "studentClass":"9-B",
-            "schoolName":"ORHANBEY I.O.O."
-        },
-        {
-            "id":"1",
-            "name":"emrah",
-            "surname":"yumurtacı",
-            "studentNo":"931",
-            "studentClass":"9-B",
-            "schoolName":"ORHANBEY I.O.O."
-        },
-        {
-            "id":"1",
-            "name":"emrah",
-            "surname":"yumurtacı",
-            "studentNo":"931",
-            "studentClass":"9-B",
-            "schoolName":"ORHANBEY I.O.O."
-        },
-        {
-            "id":"1",
-            "name":"emrah",
-            "surname":"yumurtacı",
-            "studentNo":"931",
-            "studentClass":"9-B",
-            "schoolName":"ORHANBEY I.O.O."
-        },
-        {
-            "id":"1",
-            "name":"emrah",
-            "surname":"yumurtacı",
-            "studentNo":"931",
-            "studentClass":"9-B",
-            "schoolName":"ORHANBEY I.O.O."
-        }
-    ]
+  "students": [
+    {
+      "id": "1674344017115",
+      "name": "wee",
+      "surname": "ewe",
+      "studentNo": "234",
+      "studentClass": "ewe",
+      "schoolName": "we"
+    }
+  ]
 }

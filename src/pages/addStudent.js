@@ -1,4 +1,6 @@
+import axios from "axios";
 import React, { useState, useTransition } from "react";
+import { useNavigate } from "react-router-dom";
 import Header from "../components/header";
 
 
@@ -8,12 +10,33 @@ const AddStudent = () => {
     const [surname, setSurname] = useState("")
     const [studentClass, setStudentClass] = useState("")
     const [schoolName, setSchoolName] = useState("")
+    const navigate=useNavigate()
 
-    const handleSubmit=()=>{
+    const handleSubmit=(event)=>{
+        event.preventDefault();
 
         if (studentNo==="" || name==="" || surname==="" || studentClass==="" || schoolName===""){
             alert("BÜTÜN ALANLAR DOLDURULMALIDIR!")
         }
+        
+        const newStudent={
+             id:String(new Date().getTime()),
+             name:name,
+             surname:surname,
+             studentNo:studentNo,
+             studentClass:studentClass,
+             schoolName:schoolName
+         }
+
+         axios.post("http://localhost:3004/students",newStudent)
+         .then((res)=>{
+           navigate("/")
+ 
+         })
+         .catch((err)=>{
+            console.log(err);
+            alert("kayıt esnasında bir hata oluştu")
+         })
 
     }
 
@@ -26,6 +49,7 @@ const AddStudent = () => {
 
     return (
         <div>
+            
             <Header />
             <div className="container mt-5 ">
                 <form onSubmit={handleSubmit}>
