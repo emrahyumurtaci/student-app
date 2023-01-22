@@ -44,22 +44,38 @@ const ListStudents = ({ students, setStudents }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {
-                        students.map((student, index) => (
-                            <tr key={student.id}>
-                                <th scope="row">{index + 1}</th>
-                                <td>{student.studentNo}</td>
-                                <td>{student.name}</td>
-                                <td>{student.surname}</td>
-                                <td>{student.studentClass}</td>
-                                <td>{student.schoolName}</td>
-                                <td>
-                                    <button onClick={() => deleteStudent(student)} className="btn btn-sm btn-outline-danger me-2">DELETE</button>
-                                    <Link to="/EditStudent" className="btn btn-sm btn-outline-warning">EDIT</Link >
-                                </td>
-                            </tr>
-                        ))
-                    }
+
+                    {students.length === 0 ? (
+                        <tr>
+                            <td className="text-center" colSpan={"7"}>Kayıtlı öğrenci yok</td>
+                        </tr>
+                    ) : (
+                        <>
+                            {
+                                students.map((student, index) => (
+                                    <tr key={student.id}>
+                                        <th scope="row">{index + 1}</th>
+                                        <td>{student.studentNo}</td>
+                                        <td>{student.name}</td>
+                                        <td>{student.surname}</td>
+                                        <td>{student.studentClass}</td>
+                                        <td>{student.schoolName}</td>
+                                        <td>
+                                            <button onClick={() => deleteStudent(student)} className="btn btn-sm btn-outline-danger me-2">DELETE</button>
+                                            <Link to="/EditStudent" className="btn btn-sm btn-outline-warning">EDIT</Link >
+                                        </td>
+                                    </tr>
+                                ))
+                            }
+                        </>
+
+
+
+
+                    )}
+
+
+
 
 
                 </tbody>

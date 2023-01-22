@@ -17,6 +17,7 @@ const AddStudent = () => {
 
         if (studentNo==="" || name==="" || surname==="" || studentClass==="" || schoolName===""){
             alert("BÜTÜN ALANLAR DOLDURULMALIDIR!")
+            return
         }
         
         const newStudent={

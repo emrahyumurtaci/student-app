@@ -1,12 +1,36 @@
 {
   "students": [
     {
-      "id": "1674344017115",
-      "name": "wee",
-      "surname": "ewe",
-      "studentNo": "234",
-      "studentClass": "ewe",
-      "schoolName": "we"
+      "id": "1674372665961",
+      "name": "MEHMET",
+      "surname": "CAN",
+      "studentNo": "456",
+      "studentClass": "8-D",
+      "schoolName": "ATATÜRK İ.Ö.O."
+    },
+    {
+      "id": "1674372702948",
+      "name": "EMRAH",
+      "surname": "YUMURTACI",
+      "studentNo": "123",
+      "studentClass": "10-B",
+      "schoolName": "ORHANBEY İ.Ö.O."
+    },
+    {
+      "id": "1674373118688",
+      "name": "MERT",
+      "surname": "TAŞKIN",
+      "studentNo": "789",
+      "studentClass": "9-D",
+      "schoolName": "ORHANBEY İ.Ö.O."
+    },
+    {
+      "id": "1674373162022",
+      "name": "NURGÜL",
+      "surname": "KARIK",
+      "studentNo": "240",
+      "studentClass": "8-A",
+      "schoolName": "DEMİR İ.Ö.O."
     }
   ]
 }
