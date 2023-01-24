@@ -62,7 +62,7 @@ const ListStudents = ({ students, setStudents }) => {
                                         <td>{student.schoolName}</td>
                                         <td>
                                             <button onClick={() => deleteStudent(student)} className="btn btn-sm btn-outline-danger me-2">DELETE</button>
-                                            <Link to="/EditStudent" className="btn btn-sm btn-outline-warning">EDIT</Link >
+                                            <Link to={`/EditStudent/${student.id}`} className="btn btn-sm btn-outline-warning">EDIT</Link >
                                         </td>
                                     </tr>
                                 ))

@@ -116,7 +116,7 @@ const AddStudent = () => {
                             /></div>
                     </div>
                     <div className="d-flex justify-content-fisrt mt-5">
-                        <button typ="submit" className="btn btn-outline-primary w-25 ">KAYDET</button>
+                        <button typ="submit" className="btn btn-outline-primary w-25 ">SAVE</button>
                     </div>
 
                 </form>

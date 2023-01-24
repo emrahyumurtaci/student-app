@@ -2,7 +2,7 @@
   "students": [
     {
       "id": "1674372665961",
-      "name": "MEHMET",
+      "name": "emrah",
       "surname": "CAN",
       "studentNo": "456",
       "studentClass": "8-D",
@@ -10,7 +10,7 @@
     },
     {
       "id": "1674372702948",
-      "name": "EMRAH",
+      "name": "EMRAHasdadas",
       "surname": "YUMURTACI",
       "studentNo": "123",
       "studentClass": "10-B",
@@ -19,7 +19,7 @@
     {
       "id": "1674373118688",
       "name": "MERT",
-      "surname": "TAŞKIN",
+      "surname": "TAŞKINadasdasd",
       "studentNo": "789",
       "studentClass": "9-D",
       "schoolName": "ORHANBEY İ.Ö.O."
