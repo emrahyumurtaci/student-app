@@ -6,7 +6,7 @@ Bu projenin react-route-dom, axios, useEffect, Navigate ve Lifecycle özellikler
 ## Edit sayfası tamamlanarak bir projeyi daha bitirdik
 
 
-![Uygulama Ekran Görüntüsü](https://github.com/emrahyumurtaci/student-app/blob/main/src/image/anasayfa.png?raw=true)
+![Uygulama Ekran Görüntüsü](https://github.com/emrahyumurtaci/student-app/blob/main/src/image/editD%C3%BCzenlendi.gif?raw=true)
 
 
 ## Anasayfa
